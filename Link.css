@@ -9,10 +9,10 @@ body{
 header{
 display: flex; justify-content: space-between;z-index: 9999; position: absolute;
 top: 0; left: 0; right: 0; background-color: #4b4b4b5b; backdrop-filter: blur(10px);
-padding: 2.5px 20px;
+padding: 2px 20px;
 }
 .head-l{
-     display: flex; align-items: center; gap: 10px;
+     display: flex; align-items: center; gap: 12px;
 }
 .head-l>img{
 width: 40px; height: 40px;
@@ -36,4 +36,24 @@ width: 40px; height: 40px;
 }
 .hero-vid{
     height: 100%; width: 100%; position: relative;
+}
+.hero-video{
+    height: 100%; width: 100%;object-fit: cover; object-position: center;
+}
+.hero-info{
+    z-index: 1; position: absolute; top: 10px; left: 50px;
+}
+.hero-info h1{
+    font-size: 80px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600; font-style: normal;
+}
+.hero-info p{
+    color: white; max-width: 200px;
+}
+.hero-info button{
+    background-color: #edff66; border: 2px solid #edff66; padding: 10px 40px;border-radius: 20px;
+    cursor: pointer; color: black;
+}
+.hero-info button:hover{
+    background: transparent; color: white; box-shadow: 0 0 10px #edff66;
 }
