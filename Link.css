@@ -93,3 +93,10 @@ width: 40px; height: 40px;
         background-position: 200%;
     }
 }
+
+.about-section h4{
+    margin-top: 40px;
+}
+.about-section h5{
+    margin-top: 5px; color: gray; max-width: 425px; text-align: center; line-height: 20px;
+}
